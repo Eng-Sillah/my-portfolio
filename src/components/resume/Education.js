@@ -17,20 +17,20 @@ const Education = () => {
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="BSc in Computer Science"
-            subTitle="University of DVI (2006 - 2010)"
+            title="BSc in Software Engineering With Multimedia"
+            subTitle="Limkokwing University of Creative Technology (2019 - 2023)"
             result="3.90/4"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            des="As a graduate in Software Engineering with Multimedia from Limkokwing University of Creative Technology, I am equipped with a diverse skill set that spans both the technical and creative realms of software development"
           />
           <ResumeCard
-            title="AS - Science & Information"
-            subTitle="SuperKing College (2001 - 2005)"
-            result="4.75/5"
+            title="West Africa  Senior School Certificate Examination (WASSCE)"
+            subTitle="Grace School of Science (2013 - 2016)"
+            result="8 Credits"
             des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
           />
           <ResumeCard
-            title="Secondary School Education"
-            subTitle="Kingstar Secondary School (1998 - 2000)"
+            title="Basic Education Certificate Examination (B.E.C.E)"
+            subTitle="Yengema Secondary School (Y.S.S) Kono (1998 - 2000)"
             result="5.00/5"
             des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
           />
@@ -45,23 +45,25 @@ const Education = () => {
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
-          />
-          <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+            title="Intern Engineer"
+            subTitle="Christex Foundation - (2023 - Present)"
+            result="Sierra Leone"
+            des="I had the privilege of beign part of the MoCha App engineering team during my internship, where my primary responsibility was to contribute to the development of the USSD integration. The key tasks assigned to me include, USSd MenuDevelopment, write and optimized code to seamlessly integrate the USSD Menu, scope the MVP."
           />
           <ResumeCard
             title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
-            result="Oman"
-            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
+            subTitle="Sierra Coding Academy - (2021 - 2022)"
+            result="Freetown"
+            des="Developing and designing responsive and dynamic websities"
           />
+
+          <ResumeCard
+            title="Database Administrator"
+            subTitle="BaTach Priority One Company Ltd - (2019 - 2021)"
+            result="Freetown"
+            des="My responsibilities includes designing and implementing efficient database systems, ensuring data integrity , optimizing performance, and maintaining robust security measures to safeguard sensitive information."
+          />
+
         </div>
       </div>
     </motion.div>
