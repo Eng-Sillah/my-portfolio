@@ -17,14 +17,11 @@ const LeftBanner = () => {
         <h1 className="text-5xl font-bold text-white">
           Hi, I'm <span className="text-designColor capitalize">Sorie B Sillah</span>
         </h1>
-        <h2 className="text-4xl font-bold text-white">
-          a <span>{text}</span>
-          <Cursor
-            cursorBlinking="false"
-            cursorStyle="|"
-            cursorColor="#ff014f"
-          />
-        </h2>
+        <h2 className="text-4xl sm:text-2xl md:text-2xl lg:text-4xl xl:text-5xl font-bold text-white">
+            a <span>{text}</span>
+            <Cursor cursorBlinking="false" cursorStyle="|" cursorColor="#ff014f" />
+          </h2>
+
         <p className="text-base font-bodyFont leading-6 tracking-wide">
         As a graduate in Software Engineering with Multimedia from Limkokwing University of Creative Technology, I am equipped with a diverse skill set that spans both the technical and creative realms of software development. 
         </p>
